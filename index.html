@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pizzaria</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+<!-- ---------------------------------- START OF NAVBAR -------------------------------------------------------------- -->
+
+        <nav class="navbar-inverse_my_nav_bar" >
+            <div>
+            <button type="button" class="navbar-toggle" data-toggle="collapse"  data-target="#navbar">
+            <span class="Icon-bar" ></span>
+            <span class="Icon-bar" ></span>
+            <span class="Icon-bar" ></span>
+            </button>
+            <a class="navbar-brand">Pizzaria</a>
+            </div>
+                </nav>
+            
+            
+            <div class="collapse navbar-collapse">
+            <center>
+                    <ul class="nav navbar-nav">
+                        <li class="links"><a href="#view_menu">View Menu</a></li>
+                        <li class="links"><a href="#add_menu">Add Menu</a></li>
+                    </ul>
+            </center>
+            </div>
+
+            <div id="view_menu">
+
+                <br>
+                <br>
+                <button id="show_menu_btn" type="button" onclick="show_menu()" >View Menu</button>
+                <br>
+                <br>
+                <div id="display_menu"></div>
+            
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div id="add_menu">
+                <br>
+                <input id="text_input" >
+                <br>
+                <br>
+                <button type="button" id="Reccomend" onclick="add_item()" >Reccomend New Pizza</button>
+                
+                <div class="block1">
+                
+                    <div id="display">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        <script src="main.js"></script>
+    </body>
+
+</html>
